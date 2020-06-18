@@ -1,3 +1,4 @@
+require('newrelic');
 var express = require('express'),
     employees = require('./routes/employees'),
     app = express();
